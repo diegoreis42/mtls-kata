@@ -7,8 +7,8 @@ CLIENT_PASSWORD="clientpass"
 KEYSTORE_PASSWORD="keystorepass"
 
 # Create directories
-mkdir -p ../../resources/certs
-CERT_DIR="../../resources/certs"
+mkdir -p ../../../../resources/certs
+CERT_DIR="../../../../resources/certs"
 rm -rf $CERT_DIR
 mkdir -p $CERT_DIR
 
